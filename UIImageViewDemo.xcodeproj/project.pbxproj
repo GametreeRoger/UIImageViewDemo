@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32A1454274CD8B1005A1214 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A1453274CD8B1005A1214 /* CircleView.swift */; };
+		D32A1456274CEAA8005A1214 /* ImageContentModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A1455274CEAA8005A1214 /* ImageContentModeViewController.swift */; };
+		D3905F87274E22AF009EDE5C /* redrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3905F86274E22AF009EDE5C /* redrawViewController.swift */; };
 		D3BE0D3D27478D9D006B95F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE0D3C27478D9D006B95F7 /* AppDelegate.swift */; };
 		D3BE0D3F27478D9D006B95F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE0D3E27478D9D006B95F7 /* SceneDelegate.swift */; };
-		D3BE0D4127478D9D006B95F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE0D4027478D9D006B95F7 /* ViewController.swift */; };
 		D3BE0D4427478D9D006B95F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE0D4227478D9D006B95F7 /* Main.storyboard */; };
 		D3BE0D4627478DA1006B95F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BE0D4527478DA1006B95F7 /* Assets.xcassets */; };
 		D3BE0D4927478DA1006B95F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE0D4727478DA1006B95F7 /* LaunchScreen.storyboard */; };
+		D3BE0D51274795BF006B95F7 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE0D50274795BF006B95F7 /* MyImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32A1453274CD8B1005A1214 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D32A1455274CEAA8005A1214 /* ImageContentModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentModeViewController.swift; sourceTree = "<group>"; };
+		D3905F86274E22AF009EDE5C /* redrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redrawViewController.swift; sourceTree = "<group>"; };
 		D3BE0D3927478D9D006B95F7 /* UIImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BE0D3C27478D9D006B95F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3BE0D3E27478D9D006B95F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3BE0D4027478D9D006B95F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3BE0D4327478D9D006B95F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3BE0D4527478DA1006B95F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3BE0D4827478DA1006B95F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3BE0D4A27478DA1006B95F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BE0D50274795BF006B95F7 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				D3BE0D3C27478D9D006B95F7 /* AppDelegate.swift */,
 				D3BE0D3E27478D9D006B95F7 /* SceneDelegate.swift */,
-				D3BE0D4027478D9D006B95F7 /* ViewController.swift */,
 				D3BE0D4227478D9D006B95F7 /* Main.storyboard */,
 				D3BE0D4527478DA1006B95F7 /* Assets.xcassets */,
 				D3BE0D4727478DA1006B95F7 /* LaunchScreen.storyboard */,
 				D3BE0D4A27478DA1006B95F7 /* Info.plist */,
+				D3BE0D50274795BF006B95F7 /* MyImageView.swift */,
+				D32A1453274CD8B1005A1214 /* CircleView.swift */,
+				D32A1455274CEAA8005A1214 /* ImageContentModeViewController.swift */,
+				D3905F86274E22AF009EDE5C /* redrawViewController.swift */,
 			);
 			path = UIImageViewDemo;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BE0D4127478D9D006B95F7 /* ViewController.swift in Sources */,
+				D3BE0D51274795BF006B95F7 /* MyImageView.swift in Sources */,
+				D3905F87274E22AF009EDE5C /* redrawViewController.swift in Sources */,
+				D32A1454274CD8B1005A1214 /* CircleView.swift in Sources */,
+				D32A1456274CEAA8005A1214 /* ImageContentModeViewController.swift in Sources */,
 				D3BE0D3D27478D9D006B95F7 /* AppDelegate.swift in Sources */,
 				D3BE0D3F27478D9D006B95F7 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
